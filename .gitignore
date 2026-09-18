@@ -1,0 +1,29 @@
+venv/
+__pycache__/
+*.pyc
+
+# Personal images
+*.jpg
+*.jpeg
+
+# EPFL stereo face dataset / generated copies
+camera1_face.png
+camera2_face.png
+camera1/
+camera2/
+*.ppm
+*.pnm
+*.tar
+
+# Stereo dataset images
+stereo/
+
+# Generated output images
+left_rectified.png
+right_rectified.png
+
+# Generated result
+output.png
+
+# Development backup
+CV PROJECT BACKUP/
