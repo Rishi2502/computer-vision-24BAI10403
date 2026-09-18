@@ -54,3 +54,23 @@ CV PROJECT/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+## 5.Dataset and Input Images
+
+This project uses the EPFL Stereo Face Database.
+
+The dataset is not included in this GitHub repository because its distribution is restricted.
+
+To run the project, obtain the EPFL Stereo Face Database and use one stereo image pair from the dataset.
+
+For the default command, place the two input images in the project root directory with these exact filenames:
+
+- `camera1_face.png`
+- `camera2_face.png`
+
+These should be the corresponding left and right images captured by Camera 1 and Camera 2.
+
+The project can then be run using:
+
+```bash
+python main.py
