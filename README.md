@@ -45,6 +45,7 @@ The result is reported in dataset/calibration units because the physical unit of
 - OpenCV
 - NumPy
 
+
 ## 4. Project Structure
 
 ```text
@@ -55,7 +56,12 @@ CV PROJECT/
 ├── README.md
 └── .gitignore
 
-## 5.Dataset and Input Images
+```
+
+
+
+
+## 5. Dataset and Input ImagesS
 
 This project uses the EPFL Stereo Face Database.
 
